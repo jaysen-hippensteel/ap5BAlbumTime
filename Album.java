@@ -3,7 +3,6 @@ import java.util.Collections;//import Collections
 
 public class Album
 {
-  
   //instance variables: remember to make them private and don't give them values yet (do that in the constructor)
   private String name;
   private String albums;
@@ -12,6 +11,12 @@ public class Album
   private Integer maxlength;
   private Integer avgLength;
   private Integer totalLength;
+  private String minLengthString;
+  private String maxLengthString;
+  private String avgLengthString;
+  private String totalLengthString;
+
+
   private ArrayList<Integer> songData = new ArrayList<Integer>(); // Create an ArrayList object
   //constructor: accept the artist name and album title as parameters, set all other instance variables to default values
   public Album(String nm, String alb, Integer nmsngs){
